@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+            font-size: 150px;
+            color: aqua;
+        }
+        .container{
+            margin: auto;
+            /*border: 5px solid green;*/
+            padding: auto;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: auto auto auto;
+
+        }
+        .abc{
+            border: 5px double aqua;
+            
+        }
+        .s1{
+            border: 5px solid aqua;
+            padding: 15px;
+            
+        }
+        #i1{
+            grid-column-start: 1;
+            grid-column-end: span 3;
+            
+        }
+        #i5{
+            grid-column-start: 1;
+            grid-column-end: span 2;
+        }
+        figcaption{
+            text-align: center;
+            font-weight: 500;
+            font-size: 100px;
+            color: aqua;
+            text-decoration: underline rgb(61, 133, 157);
+            text-shadow: black;
+            
+        }
+        img{
+            
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+        .c1{
+            height: 1100px ;
+        }
+        .c2{
+            height: 1200px;
+            width: 1500px;
+        }
+        .c3{
+            height: 1210px;
+            width: 1700px;
+        }
+        .c4{
+            height: 1210px;
+            width: 1800px;
+
+        }
+        .c5{
+            width: 2200px;
+        }
+        .c6{
+            height: 1200px;
+            width: 2000px;
+        }
+        *{
+            background-color: rgb(0, 0, 26);
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="abc">
+    <h1>COURSES-SEM4</h1>
+    <div class="container">
+        
+        <div class="s1" id="i1"><figure><img src="IMG\fro.jpeg" alt="INT 219" class="c1"><figcaption>Front end web development</figcaption></figure></div>
+    
+    <div class="s1" id="i2"><figure><img src="IMG\sss.jpeg" alt="sss" class="c2"><figcaption>Serverside scripting</figcaption></figure></div>
+    <div class="s1" id="i3"><figure><img src="IMG\AI.png" alt="AI" class="c3"><figcaption>AI Essentials</figcaption></figure></div>
+    <div class="s1" id="i4"><figure><img src="IMG\DA.png" alt="DA" class="c4"><figcaption>DA</figcaption></figure></div>
+    <div class="s1" id="i5"><figure><img src="IMG\java.png" alt="JAVA" class="c5"><figcaption>Java</figcaption></figure></div>
+    <div class="s1" id="i6"><figure><img src="IMG\ana.jpg" alt="PEV" class="c6"><figcaption>Analytical Skills</figcaption></figure></div>
+    </div>
+</div>
+</body>
+</html>

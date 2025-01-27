@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width , initial-scale=1.0">
+        <title>Forms in HTML</title>
+    </head>
+    <body>
+        <form action=" ">
+            <label for="uname">Enter username:</label>
+            <input type="text" name="uname" id="uname" size="30">
+            <br><br>
+            <label for="hobby">Choose your hobby:</label>
+            <input type="checkbox" name="hobby1" id="hobby" value="garden">Gardening
+            <input type="checkbox" name="hobby1" id="hobby" value="sing" checked>Singing
+            <input type="checkbox" name="hobby1" id="hobby" value="dance">Dancing
+            <br><br>
+            <label for="pro">Select your programme:</label>
+            <input type="radio" name="pro" id="btech" >
+            <label for="btech">B.Tech</label>
+            <input type="radio" name="pro" id="bca" >
+            <label for="bca">BCA</label>
+            <input type="radio" name="pro" id="bed">
+            <label for="bed">B.ED</label>
+            <br><br>
+            <label for="statesel">Choose your state:</label>
+            <select name="statesel" id="statesel" size="3" multiple>
+                <option value="choosestate">Choose your state</option>
+                <option value="pun">punjab</option>
+                <option value="ap" selected>Andhra Pradesh</option>
+                <option value="tel">Telengana</option>
+            </select>
+            <br> <br>
+            <label for="filesel">Choose file</label>
+            <input type="file" name="filesel" id="filesel">
+            <br><br>
+            <input type="submit" name="submitform" id="submitform" value="Submit Form">
+            <input type="reset" name="resetform" id="resetform" value="Reset Form">
+            <input type="image" name="image" id="image" src="INT 219\IMG\submit.jpg" width="20" height="30">
+        </form>
+    </body>
+</html>
